@@ -1,0 +1,24 @@
+.home1{
+       height:auto;
+       width: 100%;
+       padding: 0;
+       box-sizing: border-box;
+       background-size: cover;
+}
+.bg_video{
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    height: 140vh;
+}
+@media screen and (max-width:768px){
+    .bg_video {
+        height: 120vh;
+    }
+    .home1{
+        width: 100vw;
+    }
+}
+*{
+    scroll-behavior: smooth;
+}

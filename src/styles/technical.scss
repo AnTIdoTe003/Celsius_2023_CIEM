@@ -1,0 +1,14 @@
+.events_wrapper{
+    height: 200vh;
+    background: radial-gradient(at right, rgb(44, 44, 44), rgba(132, 131, 131, 0.437), rgba(1, 1, 1, 0.437)),url(../assets/galaxy.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media screen and (max-width:768px){
+    .sports_wrapper{
+        height: 130rem;
+        box-sizing: border-box;
+    }
+}

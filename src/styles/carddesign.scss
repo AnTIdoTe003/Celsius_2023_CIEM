@@ -1,0 +1,36 @@
+
+.card-wide.mdl-card {
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 200px;
+}
+
+@media (max-width: 524px) {
+    .card-wide.mdl-card {
+        width: 75vw;
+    }
+}
+
+.card-wide>.mdl-card__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 100%;
+    background: url(../assets/card_image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mdl-card__title-text {
+    font-family: 'Roboto';
+    font-size: 3rem;
+    text-shadow: 1px 2px 3px #444;
+}
+
+.card-wide>.mdl-card__menu {
+    color: #fff;
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+.mySwiper1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 50px;
+    height: 80vh;
+    margin-top: -10%;
+    background-color: white;
+}
+
+.mySwiper1 .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+.mySwiper1 .swiper-slide:not(.swiper-slide-active) {
+    filter: blur(2px);
+    transition: 1ms ease-in-out;
+}
+
+.mySwiper1 .swiper-button-prev {
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    transform: translateY(-25px);
+}
+
+
+
+.mySwiper1 .swiper-button-next {
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    transform: translateY(-25px);
+}
+
+    
+
+.partner_heading{
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+    .mySwiper1 .swiper-button-next, .mySwiper1 .swiper-button-prev {
+        width: 60px;
+        height: 60px;
+        top:75%;
+    }
+    
+}

@@ -1,0 +1,14 @@
+.about_wrapper{
+background: rgb(255, 255, 255);
+// background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.7651435574229692) 100%, rgba(245, 245, 245, 0) 100%),url(../assets/college.jpeg);
+// background: radial-gradient(at left center, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
+background-size: cover;
+background-repeat: no-repeat;
+height: 115vh;
+}
+
+@media screen and (max-width:768px){
+    .about_wrapper{
+        height: 25vh;
+    }
+}

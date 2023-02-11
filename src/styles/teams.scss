@@ -1,0 +1,59 @@
+.teams_wrapper{
+    background:linear-gradient(179.97deg, #000000 27.4%, rgba(255, 0, 0, 0.64) 99.97%);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.slick-dots li button {
+        font-size: 0;
+        line-height: 0;
+        display: block;
+        width: 80px;
+        height: 6px;
+        cursor: pointer;
+        color: white;
+        border: 0;
+        outline: none;
+        background: transparent;
+        border-radius: 5px;
+}
+
+.slick-dots li .slick-active button:before {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 1rem;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: 0.9;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 50px;
+}
+.slick-prev:before{
+    display: none;
+}
+
+.slick-next{
+    right: 35px;
+}
+
+@media screen and (max-width:768px) {
+  .slick-next:before{
+        font-size: 30px;
+  }
+  .slick-next {
+      right:-1px;
+  }
+}

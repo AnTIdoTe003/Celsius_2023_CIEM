@@ -1,0 +1,37 @@
+.mySwiper2 {
+    width: 40rem;
+    height: 23.5rem;
+    overflow: hidden;
+    transform: translateY(3.5rem);
+    right: 2.5rem;
+    // -webkit-background-clip: content-box;
+  }
+
+  
+.mySwiper2 .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+  }
+
+  .swiper-button-next, .swiper-button-prev{
+    transform: translateY(50px);
+  }
+@media  only screen and (max-width:768px){
+.swiper-button-next, .swiper-button-prev{
+  transform: translateY(50px);
+  width: 60px;
+  height: 60px;
+}
+.mySwiper2 {
+  height: 20rem;
+  overflow: hidden;
+  width: 80vw;
+  right: 0rem;
+}
+}
