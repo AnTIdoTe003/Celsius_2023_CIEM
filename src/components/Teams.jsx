@@ -326,7 +326,7 @@ const sportsMembers=[
       <Heading color={'white'} paddingBottom={5} textAlign={'center'}>
         Cementing the Foundation
       </Heading>
-     <Stack direction={['row']}  justifyContent={'space-evenly'} alignContent={'center'} rowGap={3} wrap={'wrap'} columnGap={10}>
+     <Stack direction={['row']}  justifyContent={'space-evenly'} alignContent={'center'} rowGap={3} wrap={'wrap'}>
         {
           cementing.map((i,index)=>{
             return (
@@ -345,7 +345,7 @@ const sportsMembers=[
       <Heading color={'white'} paddingBottom={5} textAlign={'center'}>
         The PR Heads
       </Heading>
-     <Stack direction={['row']}  justifyContent={'space-evenly'} alignContent={'center'} rowGap={3} wrap={'wrap'} columnGap={10}>
+     <Stack direction={['row']}  justifyContent={'space-evenly'} alignContent={'center'} rowGap={3} wrap={'wrap'}>
         {
           prHead.map((i,index)=>{
             return (

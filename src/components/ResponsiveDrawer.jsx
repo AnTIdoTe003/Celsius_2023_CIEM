@@ -95,6 +95,18 @@ const ResponsiveDrawer = () => {
                 About us
               </Button>
               </Link>
+              <Link to={'/teams'}>
+              
+              <Button
+                fontSize={'20px'}
+                variant={'unstyled'}
+                textTransform={'uppercase'}
+                color={'white'}
+                onClick={onClose}
+              >
+                Teams
+              </Button>
+              </Link>
               <Link to={'/footer'}>
               
               <Button
