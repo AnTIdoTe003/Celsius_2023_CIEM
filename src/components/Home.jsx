@@ -19,25 +19,25 @@ const Home = () => {
         </video>
         </Box>
         <Header></Header>
-        <VStack w={'100vw'} overflow={'hidden'}>
+        <VStack w={'100vw'} overflow={'hidden'} px={['1rem','5rem']} alignItems={'center'} justifyContent={'flex-start'}>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
         >
-        <Image src={img1} w={'700px'} paddingBottom={['50px','0']}></Image>
+        <Image src={img1} w={'35rem'} paddingBottom={['50px','0']}></Image>
         </motion.div>  
-        <Text textAlign={'center'} w={['350px','1000px']} color={'white'} fontWeight={'400'} fontSize={'30px'} transform={'translateY(-150px)'}>
+        <Text textAlign={'center'}color={'white'} fontWeight={'400'} fontSize={['1rem','1.8rem']} transform={'translateY(-150px)'}>
         This is your chance to be a part of CIEM's most anticipated yearly festival, in which you can participate, enjoy yourself, and win prizes. We can't wait to see you at this spectacular event.
         </Text>
         <HStack spacing={'15'}>
           <HashLink smooth to={'#register'}>
-        <Button bgColor={'orange.500'} color={'white'} w={'175px'} height={'75px'} fontSize={'25px'} transform={['translateY(-100px)','translateY(-100px)']} _hover={{bgColor:"orange.700"}}>
+        <Button bgColor={'orange.500'} color={'white'} w={['7.3rem','10.5rem']} height={['4rem','5rem']} fontSize={['1.3rem','1.7rem']} transform={['translateY(-100px)','translateY(-100px)']} _hover={{bgColor:"orange.700"}}>
             Register
         </Button>
         </HashLink>
         <HashLink to={"#about"}>
-           <Button  variant={'outline'} color={'white'} w={'175px'} height={'75px'} fontSize={'25px'} transform={['translateY(-100px)','translateY(-100px)']} _hover={{bgColor:"orange.700"}}>
+           <Button  variant={'outline'} color={'white'} w={['7.5rem','10.5rem']} height={['4rem','5rem']} fontSize={['1.3rem','1.7rem']} transform={['translateY(-100px)','translateY(-100px)']} _hover={{bgColor:"orange.700"}}>
             Know More
         </Button>
         </HashLink>       

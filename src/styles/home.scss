@@ -6,10 +6,10 @@
        background-size: cover;
 }
 .bg_video{
-    width: 100%;
+    width: 100vw;
     object-fit: cover;
     height: auto;
-    height: 140vh;
+    height: 115vh;
 }
 @media screen and (max-width:800px){
     .home1{

@@ -12,7 +12,7 @@ const PartperfDesign = (props) => {
     </Box>
     </Box>
     <Box>
-      <Text color={'white'} fontFamily={'poppins'} fontSize={'2xl'}>{props.text}</Text>
+      <Text color={'white'} fontFamily={'poppins'} textAlign={'center'} fontSize={['lg','2xl']}>{props.text}</Text>
       </Box>
       </VStack>
     
