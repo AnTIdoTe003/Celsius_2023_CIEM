@@ -45,13 +45,11 @@ const About = () => {
       ]
     };
   return (
-      <Container maxW={'100vw'} height={'110vh'} padding={0} bgColor={'teal'} className={'about_wrapper'}>
+      <Container maxW={'100vw'}padding={0} bgColor={'teal'} className={'about_wrapper'}>
       <Slider {...settings}>
       <Image src={one} w={'100%'} height={'auto'} objectFit={'cover'}/>
-
-      
-       <Image src={two} w={'100vw'} height={'auto'}  objectFit={'cover'}/>
-       <Image src={three} w={'100vw'}  height={'auto'} objectFit={'cover'}/>
+      <Image src={two} w={'100vw'} height={'auto'}  objectFit={'cover'}/>
+      <Image src={three} w={'100vw'} height={'auto'} objectFit={'cover'}/>
     
      </Slider>
     </Container>
