@@ -11,12 +11,10 @@
     height: auto;
     height: 140vh;
 }
-@media screen and (max-width:768px){
-    .bg_video {
-        height: 120vh;
-    }
+@media screen and (max-width:800px){
     .home1{
         width: 100vw;
+        height: auto;
     }
 }
 *{
