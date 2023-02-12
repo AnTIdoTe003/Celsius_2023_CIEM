@@ -6,7 +6,7 @@ import{HashLink} from 'react-router-hash-link'
 import home_vid1080 from '../assets/home_vid1080.mp4'
 import React, { useEffect } from 'react'
 import Header from './Header'
-
+import ResponsiveDrawer from './ResponsiveDrawer'
 const Home = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -19,6 +19,7 @@ const Home = () => {
         </video>
         </Box>
         <Header></Header>
+        <ResponsiveDrawer></ResponsiveDrawer>
         <VStack w={'100vw'} overflow={'hidden'} px={['1rem','5rem']} alignItems={'center'} justifyContent={'flex-start'}>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}

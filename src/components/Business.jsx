@@ -6,6 +6,7 @@ import EventCard from './EventCard'
 import ideathon from '../assets/ideathon.jpg'
 import debate from '../assets/debate.jpg'
 import publicspeaking from '../assets/publicspeaking.jpg'
+import ResponsiveDrawer from './ResponsiveDrawer'
 import Header from './Header';
 
 const Business = () => {
@@ -33,7 +34,8 @@ const Business = () => {
         
         <Container maxW={'100vw'}   id={'sports'} className={'events_wrapper'} paddingBottom={10}>
           <Header></Header>
-          <Heading color={'white'} fontSize={'7rem'} paddingBottom={'10'}  textAlign={'center'}>Business</Heading>
+          <ResponsiveDrawer></ResponsiveDrawer>
+          <Heading color={'white'} fontSize={['4rem','7rem']} paddingBottom={'10'}  textAlign={'center'}>Business</Heading>
           {/* <Fade top cascade> */}
             <Stack direction={['column','row']} wrap={'wrap'} justifyContent={'space-evenly'} alignContent={'center'} rowGap={'30px'}>
               {businessData.map((item, index) => {

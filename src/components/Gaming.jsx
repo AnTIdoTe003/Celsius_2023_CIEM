@@ -4,6 +4,7 @@ import EventCard from './EventCard'
 import mobilegaming from '../assets/mobilegaming.png'
 import pcgaming from '../assets/pcgaming.png'
 import Header from './Header';
+import ResponsiveDrawer from './ResponsiveDrawer'
 const Gaming = () => {
       useEffect(() => {
         window.scrollTo(0, 0)
@@ -23,7 +24,8 @@ const Gaming = () => {
         
         <Container maxW={'100vw'}   id={'sports'} className={'events_wrapper'} paddingBottom={10}>
           <Header></Header>
-          <Heading color={'white'} fontSize={'7rem'} paddingBottom={'10'}  textAlign={'center'}>Gaming</Heading>
+          <ResponsiveDrawer></ResponsiveDrawer>
+          <Heading color={'white'} fontSize={['4rem','7rem']} paddingBottom={'10'}  textAlign={'center'}>Gaming</Heading>
 
             <Stack direction={['column','row']} wrap={'wrap'} justifyContent={'space-evenly'} alignContent={'center'} rowGap={'30px'}>
               {gamingData.map((item, index) => {

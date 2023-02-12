@@ -13,6 +13,7 @@ import EventCard from './EventCard'
 // import Slide from 'react-reveal/Slide';
 import '../styles/sports.scss'
 import Header from './Header'
+import ResponsiveDrawer from './ResponsiveDrawer'
 
 const Sports = () => {
   useEffect(() => {
@@ -59,7 +60,8 @@ const Sports = () => {
     
     <Container maxW={'100vw'}   id={'sports'} className={'events_wrapper'} paddingBottom={10} paddingTop={5}>
       <Header></Header>
-      <Heading color={'white'} fontSize={['5rem','7rem']} paddingBottom={'10'}  textAlign={'center'}>Sports</Heading>
+      <ResponsiveDrawer></ResponsiveDrawer>
+      <Heading color={'white'} fontSize={['4rem','7rem']} paddingBottom={'10'}  textAlign={'center'}>Sports</Heading>
       {/* <Fade top cascade> */}
         <Stack direction={['column','row']} wrap={'wrap'} justifyContent={'space-evenly'} alignContent={'center'} rowGap={'30px'}>
           {sportsData.map((item, index) => {

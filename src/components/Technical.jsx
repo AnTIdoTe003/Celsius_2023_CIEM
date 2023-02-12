@@ -18,7 +18,7 @@ import EventCard from './EventCard'
 // import Slide from 'react-reveal/Slide';
 import '../styles/sports.scss'
 import Header from './Header'
-
+import ResponsiveDrawer from './ResponsiveDrawer'
 const Technical = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -71,9 +71,10 @@ const Technical = () => {
       },
     ]
   return (
-    <Container maxW={'100vw'}   id={'sports'} className={'events_wrapper'} paddingBottom={10} >
+    <Container maxW={'100vw'}id={'sports'} className={'events_wrapper'} paddingBottom={10} >
       <Header></Header>
-    <Heading color={'white'} fontSize={['5rem','7rem']} py={'10'}  textAlign={'center'}>Technical</Heading>
+      <ResponsiveDrawer></ResponsiveDrawer>
+    <Heading color={'white'} fontSize={['4rem','7rem']} py={2}  textAlign={'center'}>Technical</Heading>
     {/* <Fade top cascade> */}
       <Stack direction={['column','row']} wrap={'wrap'} justifyContent={'space-evenly'} alignContent={'center'} rowGap={'30px'}>
         {techData.map((item, index) => {

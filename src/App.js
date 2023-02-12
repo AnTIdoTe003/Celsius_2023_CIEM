@@ -25,7 +25,6 @@ import Teams from './components/Teams';
 function App() {
   return (
     <Router>
-      <ResponsiveDrawer></ResponsiveDrawer>
       <Routes>
         <Route path="/" element={<LandingPage></LandingPage>}/>
         <Route path="/technical" element={<Technical></Technical>}/>

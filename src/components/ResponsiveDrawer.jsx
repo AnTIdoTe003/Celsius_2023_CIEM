@@ -9,20 +9,21 @@ import {
   DrawerContent,
   DrawerCloseButton,
   Button,
-
   useDisclosure,
   VStack,
-
   Box,
+  HStack,
 
 } from '@chakra-ui/react';
-// import logo from '../assets/logo1.png'
+import logo from '../assets/logo1.png'
+import '../styles/drawer.scss'
 // import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
 const ResponsiveDrawer = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
-    <Box display={'flex'} justifyContent={'center'} alignItems={'center'}>
+    <HStack justifyContent={'space-between'} height={'auto'} display={['yes', 'none']}>
+      <Box>
       <Button
         colorScheme="white"
         onClick={onOpen}
@@ -30,7 +31,6 @@ const ResponsiveDrawer = () => {
         top={'20px'}
         left={'5px'}
         zIndex={'1'}
-        display={['yes', 'none']}
         background={'none'}
         color={'white'}
       >
@@ -123,8 +123,11 @@ const ResponsiveDrawer = () => {
           </DrawerBody>
         </DrawerContent>
       </Drawer>
-      {/* <Image w={'5rem'} src={logo}></Image> */}
-    </Box>
+      </Box>
+      <Box w={'7rem'} className={'drawer_img'} overflow={'hidden'}>
+      <img src={logo} alt=""/>
+      </Box>
+    </HStack>
   );
 };
 

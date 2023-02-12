@@ -6,7 +6,7 @@ import dancing from '../assets/dancing.jpg'
 import fashionshow from '../assets/fashionshow.jpg'
 import duet from '../assets/duet.jpg'
 import easterndance from '../assets/easterndance.jpg'
-
+import ResponsiveDrawer from './ResponsiveDrawer'
 import Header from './Header';
 const Cultural = () => {
   
@@ -60,9 +60,10 @@ const Cultural = () => {
         
         <Container maxW={'100vw'}   id={'sports'} className={'events_wrapper'} paddingBottom={10} paddingTop={5}>
           <Header></Header>
-          <Heading color={'white'}fontSize={['5rem','7rem']} paddingBottom={'10'}  textAlign={'center'}>Cultural</Heading>
+          <ResponsiveDrawer></ResponsiveDrawer>
+          <Heading color={'white'} fontSize={['4rem','7rem']} paddingBottom={'10'}  textAlign={'center'}>Cultural</Heading>
 
-            <Stack direction={['column','row']} wrap={'wrap'} justifyContent={'space-evenly'} alignItems={'center'} rowGap={10} columnGap={8}>
+          <Stack direction={['column','row']} wrap={'wrap'} justifyContent={'space-evenly'} alignContent={'center'} rowGap={'30px'}>
               {businessData.map((item, index) => {
                 return (
 
