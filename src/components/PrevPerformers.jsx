@@ -68,8 +68,10 @@ const arr1 =[
           },
 ];
   return (
-    <VStack className='performers_wrapper' bgImage={eventdetails_bg} >
-      <Heading className='partner_heading' fontSize={['45px', '90px']} textAlign={'center'} color={'white'} paddingTop={'10'} letterSpacing={'10px'}>
+    <VStack className='performers_wrapper' bgImage={eventdetails_bg} width={'100vw'} 
+    flexWrap={'wrap'}
+    >
+      <Heading className='partner_heading' fontSize={['2.5rem', '90px']} textAlign={'center'} color={'white'} paddingTop={'10'} letterSpacing={'10px'}>
       Our Previous Performers
        </Heading>
         <Swiper
@@ -116,8 +118,7 @@ const arr1 =[
                             text={i.text}
                             />
                         </SwiperSlide>
-                    )
-                    
+                    )      
                 })
         }
        

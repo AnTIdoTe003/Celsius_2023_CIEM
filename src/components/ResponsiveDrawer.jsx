@@ -1,6 +1,6 @@
 import React from 'react';
-import { IoIosOptions } from 'react-icons/io';
-import {
+import {HiMenuAlt1} from 'react-icons/hi'
+import{
   Drawer,
   DrawerBody,
   // DrawerFooter,
@@ -15,10 +15,17 @@ import {
   HStack,
 
 } from '@chakra-ui/react';
+import {Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+ } from '@chakra-ui/react'
+import {ChevronDownIcon}  from '@chakra-ui/icons'
 import logo from '../assets/logo1.png'
 import '../styles/drawer.scss'
 // import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 const ResponsiveDrawer = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
@@ -27,14 +34,12 @@ const ResponsiveDrawer = () => {
       <Button
         colorScheme="white"
         onClick={onOpen}
-        pos={'absolute'}
-        top={'20px'}
-        left={'5px'}
         zIndex={'1'}
-        background={'none'}
+        background={'blackAlpha.700'}
         color={'white'}
+        borderRadius={'10%'}
       >
-        <IoIosOptions size={'40px'}></IoIosOptions>
+        <HiMenuAlt1 size={'1.6rem'}></HiMenuAlt1>
       </Button>
       <Drawer isOpen={isOpen} placement="left" onClose={onClose}>
         <DrawerOverlay />
@@ -57,6 +62,19 @@ const ResponsiveDrawer = () => {
                 Home
               </Button>
               </Link>
+              <Menu>
+            <MenuButton id='buttons' fontSize={'20px'} variant={'unstyled'} textTransform={'uppercase'} color={'whiteAlpha.800'}  as={Button} rightIcon={<ChevronDownIcon/>}>
+            Events
+            </MenuButton>
+            <MenuList>
+            <Link to={'/sports'}><MenuItem>Sports</MenuItem></Link>
+            <Link to={'/technical'}><MenuItem>Technical</MenuItem></Link>
+            <Link to={'/cultural'}><MenuItem>Cultural</MenuItem></Link>
+            <Link to={'/gaming'}><MenuItem>Gaming</MenuItem></Link>
+            <Link to={'/business'}><MenuItem>Business</MenuItem></Link>
+            </MenuList>
+            </Menu>
+            <HashLink to={'#faqs'}>
               <Button
                 fontSize={'20px'}
                 variant={'unstyled'}
@@ -64,39 +82,10 @@ const ResponsiveDrawer = () => {
                 color={'white'}
                 onClick={onClose}
               >
-                Schedule
+                FAQS
               </Button>
-              <Button
-                fontSize={'20px'}
-                variant={'unstyled'}
-                textTransform={'uppercase'}
-                color={'white'}
-                onClick={onClose}
-              >
-                Activities
-              </Button>
-              <Button
-                fontSize={'20px'}
-                variant={'unstyled'}
-                textTransform={'uppercase'}
-                color={'white'}
-                onClick={onClose}
-              >
-                Sponsers
-              </Button>
-              <Link smooth to={'/sports'}>
-              <Button
-                fontSize={'20px'}
-                variant={'unstyled'}
-                textTransform={'uppercase'}
-                color={'white'}
-                onClick={onClose}
-              >
-                About us
-              </Button>
-              </Link>
+              </HashLink>
               <Link to={'/teams'}>
-              
               <Button
                 fontSize={'20px'}
                 variant={'unstyled'}
@@ -107,8 +96,7 @@ const ResponsiveDrawer = () => {
                 Teams
               </Button>
               </Link>
-              <Link to={'/footer'}>
-              
+              <HashLink smooth to={'#footer'}>
               <Button
                 fontSize={'20px'}
                 variant={'unstyled'}
@@ -118,13 +106,13 @@ const ResponsiveDrawer = () => {
               >
                 Contact us
               </Button>
-              </Link>
+              </HashLink>
             </VStack>
           </DrawerBody>
         </DrawerContent>
       </Drawer>
       </Box>
-      <Box w={'7rem'} className={'drawer_img'} overflow={'hidden'}>
+      <Box className={'drawer_img'} overflow={'hidden'}>
       <img src={logo} alt=""/>
       </Box>
     </HStack>

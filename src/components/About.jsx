@@ -1,4 +1,4 @@
-import {Container,Image } from '@chakra-ui/react'
+import {Image } from '@chakra-ui/react'
 import React from 'react'
 import '../styles/about.scss'
 import Slider from "react-slick";
@@ -45,14 +45,13 @@ const About = () => {
       ]
     };
   return (
-      <Container maxW={'100vw'}padding={0} bgColor={'teal'} className={'about_wrapper'}>
+      <div className={'about_wrapper'}>
       <Slider {...settings}>
-      <Image src={one} w={'100%'} height={'auto'} objectFit={'cover'}/>
+      <Image src={one} w={'100vw'} height={'auto'} objectFit={'cover'}/>
       <Image src={two} w={'100vw'} height={'auto'}  objectFit={'cover'}/>
       <Image src={three} w={'100vw'} height={'auto'} objectFit={'cover'}/>
-    
      </Slider>
-    </Container>
+    </div>
  
   
   )

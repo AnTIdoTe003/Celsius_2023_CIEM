@@ -1,9 +1,15 @@
-import { Box, Button, HStack, Image } from '@chakra-ui/react'
+import { Box, Button, HStack, Image,Menu,
+    MenuButton,
+    MenuList,
+    MenuItem,
+   } from '@chakra-ui/react'
+import {ChevronDownIcon}  from '@chakra-ui/icons'
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import img1 from '../assets/logo1.png'
 import '../styles/header.scss'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
       
@@ -18,21 +24,37 @@ const Header = () => {
             </NavLink>
             <Box>
             <HStack justifyContent={'space-evenly'} spacing={'30px'}>
+            <Link to={'/'}>
             <Button id='buttons' fontSize={'20px'} variant={'unstyled'} textTransform={'uppercase'} color={'whiteAlpha.800'}>
-                About us
+                Home
             </Button>
-            <Button  id='buttons' fontSize={'20px'} variant={'unstyled'} textTransform={'uppercase'} color={'whiteAlpha.800'}>
-                Activities
-            </Button>
+            </Link>
+            {/* <Button  id='buttons' fontSize={'20px'} variant={'unstyled'} textTransform={'uppercase'} color={'whiteAlpha.800'}>
+                Events
+            </Button> */}
+            <Menu>
+            <MenuButton id='buttons' fontSize={'20px'} variant={'unstyled'} textTransform={'uppercase'} color={'whiteAlpha.800'}  as={Button} rightIcon={<ChevronDownIcon/>}>
+            Events
+            </MenuButton>
+            <MenuList>
+            <Link to={'/sports'}><MenuItem>Sports</MenuItem></Link>
+            <Link to={'/technical'}><MenuItem>Technical</MenuItem></Link>
+            <Link to={'/cultural'}><MenuItem>Cultural</MenuItem></Link>
+            <Link to={'/gaming'}><MenuItem>Gaming</MenuItem></Link>
+            <Link to={'/business'}><MenuItem>Business</MenuItem></Link>
+            </MenuList>
+            </Menu>
             <HashLink smooth to={"#sponser"}>
                 <Button id='buttons' fontSize={'20px'} variant={'unstyled'} textTransform={'uppercase'} color={'whiteAlpha.800'}>
-                Sponsers
+                Teams
             </Button>
             </HashLink>
             <NavLink to={'/teams'}>
+            <HashLink to={'#faqs'}>
             <Button id='buttons' fontSize={'20px'} variant={'unstyled'} textTransform={'uppercase'} color={'whiteAlpha.800'}>
-               Teams
+               Faqs
             </Button>
+            </HashLink>
             </NavLink>
             <HashLink smooth to={'#footer'}>
             <Button id='buttons'fontSize={'20px'} variant={'unstyled'} textTransform={'uppercase'} color={'whiteAlpha.800'}>

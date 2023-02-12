@@ -1,10 +1,10 @@
-import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Container, Heading } from '@chakra-ui/react'
+import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box,Heading } from '@chakra-ui/react'
 import '../styles/faqs.scss'
 import React from 'react'
 
 const FAQs = () => {
   return (
-    <Container maxW={'100vw'} height={'auto'} paddingTop={10}>
+    <div className='faq_wrapper' id='faqs'>
         <Heading as={'h1'} fontSize={'5rem'} textAlign={'center'}>FAQs</Heading>
     <Accordion defaultIndex={[0]} allowMultiple>
   <AccordionItem>
@@ -57,7 +57,7 @@ const FAQs = () => {
     </AccordionPanel>
   </AccordionItem>
 </Accordion>
-</Container>
+</div>
   )
 }
 

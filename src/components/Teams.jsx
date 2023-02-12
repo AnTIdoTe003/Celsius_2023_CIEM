@@ -51,6 +51,7 @@ import twelve from '../assets/twelve.jpg'
 import thirteen from '../assets/eventdetails_bg.jpg'
 
 import Header from './Header';
+import ResponsiveDrawer from './ResponsiveDrawer';
 const Teams = () => {
   const settings = {
       dots: true,
@@ -286,6 +287,7 @@ const sportsMembers=[
       
     <Container maxW={'100vw'} paddingBottom={'2rem'} bgImage={eleven} backgroundSize={'cover'} backgroundPosition={'center'} backgroundRepeat={'no-repeat'}>
       <Header></Header>
+      <ResponsiveDrawer></ResponsiveDrawer>
       {/* <Fade left> */}
       <Heading color={'white'} paddingBottom={5} textAlign={'center'}>
         The Foundation Members
