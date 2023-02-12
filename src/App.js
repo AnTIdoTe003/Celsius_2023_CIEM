@@ -11,7 +11,7 @@ import Gaming from './components/Gaming';
 // import PartperfDesign from './components/PartperfDesign';
 // import PrevPartners from './components/PrevPartners';
 // import PrevPerformers from './components/PrevPerformers';
-import ResponsiveDrawer from './components/ResponsiveDrawer';
+// import ResponsiveDrawer from './components/ResponsiveDrawer';
 import Sports from './components/Sports';
 import Technical from './components/Technical';
 // import Timeline from './components/Timeline';
