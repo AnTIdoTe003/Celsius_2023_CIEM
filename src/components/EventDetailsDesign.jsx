@@ -12,23 +12,24 @@ import {FiPhoneCall} from 'react-icons/fi'
 import eventdetails_bg from '../assets/eventdetails_bg.jpg'
 import { useEffect } from 'react';
 import Header from './Header';
-
+import ResponsiveDrawer from './ResponsiveDrawer';
 const EventDetailsDesign = (props2) => {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
   return (
-    <Container maxW={'100vw'} bgImage={eventdetails_bg} backgroundRepeat={'no-repeat'} backgroundSize={'cover'} h={['190vh','120vh']} paddingTop={[12,3]}>
+    <Container maxW={'100vw'} bgImage={eventdetails_bg} backgroundRepeat={'no-repeat'} backgroundSize={'cover'} h={'auto'} paddingTop={[4,3]}>
       <Header></Header>
+      <ResponsiveDrawer></ResponsiveDrawer>
       {/* <Fade top> */}
-      <Heading  textTransform={'uppercase'} size={'3xl'} color={'white'} textAlign={'center'} pos={'relative'} _after={{
+      <Heading paddingBottom={6} textTransform={'uppercase'} size={'3xl'} color={'white'} textAlign={'center'} pos={'relative'} _after={{
         content: '" "',
         height: '4px',
-        width: '8%',
+        width: '10%',
         position: 'absolute',
         left: '0',
         right:'0',
-        bottom:'-10px',
+        bottom:'1rem',
         margin:'0 auto',
         backgroundColor: 'white',
         zIndex:'1'
@@ -37,12 +38,12 @@ const EventDetailsDesign = (props2) => {
       {/* </Fade> */}
       <Stack direction={['column','row']}  justifyContent={'space-evenly'} alignItems={'center'}>
         {/* <Fade left> */}
-        <Box w={['100vw','40vw']}  h={'100vh'} p={'10'} overflow={'hidden'}>
-        <Image  borderRadius={'10px'} objectFit={'contain'} w={'100%'} h={['50%','80%']} src={props2.image}></Image>
+        <Box w={['100vw','40vw']}  h={['70vh','100vh']} overflow={'hidden'} paddingTop={[5,5]}>
+        <Image  borderRadius={2} px={2} objectFit={'contain'} w={'100%'} h={['100%','85%']} src={props2.image}></Image>
         </Box>
         {/* </Fade> */}
         {/* <Fade right> */}
-        <Box w={['90vw','40vw']}  h={'100vh'} top={['-350px','60px']} pos={'relative'} p={'5'}>
+        <Box w={['90vw','40vw']}  h={'auto'}  pos={'relative'}>
           <Heading color={'white'}  textAlign={'left'} textTransform={'uppercase'} fontSize={['50px','40px']} fontFamily={'sans-serif'} paddingBottom={2}>Contact</Heading>
           {/* <Text color={'white' } textAlign={'left'} textTransform={'uppercase'} fontFamily={'sans-serif'} fontSize={['20px','30px']}>
             {props2.person1} :  <a href={`tel:${props2.contact1}`}>{props2.contact1}</a>
@@ -64,7 +65,7 @@ const EventDetailsDesign = (props2) => {
            <a href={props2.register} target="_blank" rel='noreferrer'><Button visibility={`${props2.category==='cultural'?'hidden':'visible'}`}>Register</Button></a>
           </HStack>
           <Box objectFit={'contain'} my={['0%','1%']}>
-      <Heading color={'white'} textTransform={'uppercase'} size={'2xl'} textAlign={'left'}>Moments from {props2.title}</Heading>
+      <Heading color={'white'} textTransform={'uppercase'} size={'2xl'} textAlign={'left'} paddingBottom={2} >Moments from {props2.title}</Heading>
       <Swiper
         spaceBetween={30}
         grabCursor={true}

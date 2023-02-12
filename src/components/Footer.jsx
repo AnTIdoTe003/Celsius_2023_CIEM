@@ -29,7 +29,7 @@ const Footer = () => {
                 <Image src= {logo} w={['20rem','20rem']} h={'20rem'}>
                 </Image>
                 <HStack spacing={'8'} className={'social_icons'}>
-                    <img src={linkedin} alt="" />
+                    <a href="https://www.linkedin.com/company/celsiusciem/"><img src={linkedin} alt="" target="_blank" rel="noreferrer"/></a> 
                     <img src={facebook} alt="" />
                     <img src={instagram} alt=""/>
                     
