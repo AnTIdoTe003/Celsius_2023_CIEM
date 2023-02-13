@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react'
 import {Container, Heading, Stack } from '@chakra-ui/react'
 import EventCard from './EventCard'
-import singing from '../assets/singing.jpg'
-import dancing from '../assets/dancing.jpg'
-import fashionshow from '../assets/fashionshow.jpg'
-import duet from '../assets/duet.jpg'
-import easterndance from '../assets/easterndance.jpg'
+// import singing from '../assets/singing.jpg'
+// import dancing from '../assets/dancing.jpg'
+// import fashionshow from '../assets/fashionshow.jpg'
+// import duet from '../assets/duet.jpg'
+// import easterndance from '../assets/easterndance.jpg'
 import ResponsiveDrawer from './ResponsiveDrawer'
 import Header from './Header';
 const Cultural = () => {
@@ -18,40 +18,40 @@ const Cultural = () => {
           key:1,
           title:'eastern solo singing',
 
-          image: singing
+          image: "https://i.ibb.co/YhjK8Nh/singing.jpg"
         },
      
      
         {
           key:4,
           title:'western solo singing',
-          image:singing
+          image: "https://i.ibb.co/YhjK8Nh/singing.jpg"
         },
         {
           key:5,
           title:'duo singing',
-          image:duet
+          image: "https://i.ibb.co/Y3gL0dh/duet.jpg"
         },
            {
           key:2,
           title:'eastern solo dancing',
-          image: easterndance
+          image: "https://i.ibb.co/RjK28zc/easterndance.jpg"
         },
          {
           key:6,
           title:'western solo dancing',
 
-          image:dancing
+          image:"https://i.ibb.co/6vC6RS2/dancing.jpg"
         },
          {
           key:7,
           title:'group dance',
-          image:dancing
+          image:"https://i.ibb.co/6vC6RS2/dancing.jpg"
         },
         {
           key:3,
           title:'fashion show',
-          image:fashionshow
+          image: "https://i.ibb.co/0DLTgdY/fashionshow.jpg"
         },
       
       

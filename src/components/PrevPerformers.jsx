@@ -16,7 +16,7 @@ import akriti from '../assets/akriti.jpg'
 import papon from '../assets/papon.jpg'
 import anupamroy from '../assets/anupamroy.jpg'
 import trap from '../assets/trap.PNG'
-import eventdetails_bg from '../assets/eventdetails_bg.jpg'
+// import eventdetails_bg from '../assets/eventdetails_bg.jpg'
 import { Heading, VStack } from '@chakra-ui/react';
 const PrevPerformers = () => {
 const arr1 =[
@@ -68,7 +68,7 @@ const arr1 =[
           },
 ];
   return (
-    <VStack className='performers_wrapper' bgImage={eventdetails_bg} width={'100vw'} 
+    <VStack className='performers_wrapper'width={'100vw'} 
     flexWrap={'wrap'}
     >
       <Heading className='partner_heading' fontSize={['2.5rem', '90px']} textAlign={'center'} color={'white'} paddingTop={'10'} letterSpacing={'10px'}>

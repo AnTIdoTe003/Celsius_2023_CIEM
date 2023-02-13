@@ -3,9 +3,9 @@ import { Container, Heading,  Stack,  } from '@chakra-ui/react'
 import EventCard from './EventCard'
 // import Fade from 'react-reveal/Fade';
 // import Slide from 'react-reveal/Slide';
-import ideathon from '../assets/ideathon.jpg'
-import debate from '../assets/debate.jpg'
-import publicspeaking from '../assets/publicspeaking.jpg'
+// import ideathon from '../assets/ideathon.jpg'
+// import debate from '../assets/debate.jpg'
+// import publicspeaking from '../assets/publicspeaking.jpg'
 import ResponsiveDrawer from './ResponsiveDrawer'
 import Header from './Header';
 
@@ -18,17 +18,17 @@ const Business = () => {
         {
           key:1,
           title:'ideathon',
-          image: ideathon
+          image: "https://i.ibb.co/W3tQGrS/ideathon.png"
         },
         {
           key:2,
           title:'debate',
-          image: debate
+          image: "https://i.ibb.co/cC6XJKj/debate.png"
         },
        {
           key:3,
           title:'public speaking',
-          image: publicspeaking
+          image: "https://i.ibb.co/B3M0jvn/publicspeaking.png"
         },]
       return (
         

@@ -4,9 +4,9 @@ import '../styles/about.scss'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import one from '../assets/3.jpg'
-import two from '../assets/4.jpg'
-import three from '../assets/5.jpg'
+// import one from '../assets/3.jpg'
+// import two from '../assets/4.jpg'
+// import three from '../assets/5.jpg'
 import '../'
 const About = () => {
   const settings = {
@@ -47,9 +47,9 @@ const About = () => {
   return (
       <div className={'about_wrapper'}>
       <Slider {...settings}>
-      <Image src={one} w={'100vw'} height={'auto'} objectFit={'cover'}/>
-      <Image src={two} w={'100vw'} height={'auto'}  objectFit={'cover'}/>
-      <Image src={three} w={'100vw'} height={'auto'} objectFit={'cover'}/>
+      <Image src="https://i.ibb.co/hFxpNCT/3.jpg" w={'100vw'} height={'auto'} objectFit={'cover'}/>
+      <Image src="https://i.ibb.co/hFxpNCT/3.jpghttps://i.ibb.co/SdVTfYC/4.jpg" w={'100vw'} height={'auto'}  objectFit={'cover'}/>
+      <Image src="https://i.ibb.co/YBK9GmQ/5.jpg" w={'100vw'} height={'auto'} objectFit={'cover'}/>
      </Slider>
     </div>
  

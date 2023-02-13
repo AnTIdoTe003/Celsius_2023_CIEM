@@ -1,17 +1,17 @@
 import {Container, Heading, Stack} from '@chakra-ui/react'
 import React, { useEffect } from 'react'
 // import pcgaming from '../assets/pcgaming.png'
-import hackathon from '../assets/hackathon.png'
+// import hackathon from '../assets/hackathon.png'
 // import gripit from '../assets/gripit.png'
-import nitrocharge from '../assets/nitrocharge.png'
+// import nitrocharge from '../assets/nitrocharge.png'
 // import circuit from '../assets/circuit.png'
-import robocup from '../assets/robocup.png'
-import codedrift from '../assets/codedrift.png'
-import bridgebuilding from '../assets/bridgebuilding.png'
-import loc from '../assets/loc.png'
-import model from '../assets/model.png'
-import treasurehunt from '../assets/treasurehunt.png'
-import techquiz from '../assets/techquiz.png'
+// import robocup from '../assets/robocup.png'
+// import codedrift from '../assets/codedrift.png'
+// import bridgebuilding from '../assets/bridgebuilding.png'
+// import loc from '../assets/loc.png'
+// import model from '../assets/model.png'
+// import treasurehunt from '../assets/treasurehunt.png'
+// import techquiz from '../assets/techquiz.png'
 // import mobilegaming from '../assets/mobilegaming.png'
 import EventCard from './EventCard'
 // import Fade from 'react-reveal/Fade';
@@ -27,47 +27,47 @@ const Technical = () => {
       {
         key:1,
         title:'hackathon',
-        image: hackathon
+        image: "https://i.ibb.co/WVvcm1z/hackathon.png"
       },
       {
         key:2,
         title:'all terrain',
-        image: nitrocharge
+        image: "https://i.ibb.co/VjjmB5r/nitrocharge.png"
       },
       {
         key:3,
         title:'robo soccer',
-        image: robocup
+        image: "https://i.ibb.co/bzK8Dbp/robocup.png"
       },
       {
         key:4,
         title:'codedrift',
-        image: codedrift
+        image: "https://i.ibb.co/grrqhvc/codedrift.png"
       },
       {
         key:5,
         title:'bridge building',
-        image: bridgebuilding
+        image: "https://i.ibb.co/LPmBYL7/bridgebuilding.png"
       },
       {
         key:6,
         title:'line of control',
-        image: loc
+        image: "https://i.ibb.co/cCLS7Kb/loc.png"
       },
       {
         key:7,
         title:'treasure hunt',
-        image: treasurehunt
+        image: "https://i.ibb.co/vhjcvLw/treasurehunt.png"
       },
       {
         key:8,
         title:'model display',
-        image: model
+        image: "https://i.ibb.co/gP1T1nM/model.png"
       },
       {
         key:9,
         title:'tech quiz',
-        image: techquiz
+        image: "https://i.ibb.co/tLSdHGk/techquiz.png"
       },
     ]
   return (

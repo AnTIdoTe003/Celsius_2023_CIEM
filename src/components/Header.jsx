@@ -44,18 +44,18 @@ const Header = () => {
             <Link to={'/business'}><MenuItem>Business</MenuItem></Link>
             </MenuList>
             </Menu>
-            <HashLink smooth to={"#sponser"}>
+            <NavLink to={'/teams'}>
                 <Button id='buttons' fontSize={'20px'} variant={'unstyled'} textTransform={'uppercase'} color={'whiteAlpha.800'}>
                 Teams
             </Button>
-            </HashLink>
-            <NavLink to={'/teams'}>
+
+            </NavLink>
+
             <HashLink to={'#faqs'}>
             <Button id='buttons' fontSize={'20px'} variant={'unstyled'} textTransform={'uppercase'} color={'whiteAlpha.800'}>
                Faqs
             </Button>
             </HashLink>
-            </NavLink>
             <HashLink smooth to={'#footer'}>
             <Button id='buttons'fontSize={'20px'} variant={'unstyled'} textTransform={'uppercase'} color={'whiteAlpha.800'}>
                 Contact us

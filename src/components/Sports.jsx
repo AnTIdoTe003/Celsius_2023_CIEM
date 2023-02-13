@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react'
 import {Container, Heading, Stack} from '@chakra-ui/react'
-import torneo from '../assets/torneo.png'
-import shuttleup from '../assets/shuttleup.png'
-import chess from '../assets/chess.png'
-import smash from '../assets/smash.png'
-import carrom from '../assets/carrom.png'
-import howzat from '../assets/howzat.png'
-import tt from '../assets/tt.jpg'
+// import torneo from '../assets/torneo.png'
+// import shuttleup from '../assets/shuttleup.png'
+// import chess from '../assets/chess.png'
+// import smash from '../assets/smash.png'
+// import carrom from '../assets/carrom.png'
+// import howzat from '../assets/howzat.png'
+// import tt from '../assets/tt.jpg'
 import EventCard from './EventCard'
 // import AnimatedPage from './AnimatedPage'
 // import Fade from 'react-reveal/Fade';
@@ -23,37 +23,37 @@ const Sports = () => {
     {
       key:1,
       title:'torneo',
-      image: torneo
+      image: "https://i.ibb.co/bRfqYM2/torneo.png"
     },
     {
       key:2,
       title:'shuttleup',
-      image: shuttleup
+      image: "https://i.ibb.co/PFPmpsw/shuttleup.png"
     },
     {
       key:3,
       title:'chess',
-      image: chess
+      image: "https://i.ibb.co/5j8L5PL/chess.png"
     },
     {
       key:4,
       title:'smash',
-      image: smash
+      image: "https://i.ibb.co/mJmKM8f/smash.png"
     },
     {
       key:5,
       title:'carrom',
-      image: carrom
+      image: "https://i.ibb.co/D9htY53/carrom.png"
     },
     {
       key:6,
       title:'howzat',
-      image: howzat
+      image: "https://i.ibb.co/0qS7Lrc/howzat.png"
     },
     {
       key:7,
       title:'table tennis',
-      image :tt
+      image :"https://i.ibb.co/dky0F4z/tt.jpg"
     }
   ]
   return (

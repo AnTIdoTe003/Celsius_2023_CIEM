@@ -1,5 +1,5 @@
 import { Box, Button, HStack, Image, Text, VStack } from '@chakra-ui/react'
-import img1 from '../assets/logo1.png'
+// import img1 from '../assets/logo1.png'
 import '../styles/home.scss'
 import { motion } from "framer-motion"
 import{HashLink} from 'react-router-hash-link'
@@ -26,13 +26,13 @@ const Home = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
         >
-        <Image src={img1} w={'35rem'} paddingBottom={['50px','0']}></Image>
+        <Image src="https://i.ibb.co/M2jHcf6/logo1.png" w={'35rem'} paddingBottom={['50px','0']}></Image>
         </motion.div>  
         <Text textAlign={'center'}color={'white'} fontWeight={'400'} fontSize={['1rem','1.8rem']} transform={'translateY(-150px)'}>
         This is your chance to be a part of CIEM's most anticipated yearly festival, in which you can participate, enjoy yourself, and win prizes. We can't wait to see you at this spectacular event.
         </Text>
         <HStack spacing={'15'}>
-          <HashLink smooth to={'#register'}>
+        <HashLink smooth to={'#register'}>
         <Button bgColor={'orange.500'} color={'white'} w={['7.3rem','10.5rem']} height={['4rem','5rem']} fontSize={['1.3rem','1.7rem']} transform={['translateY(-100px)','translateY(-100px)']} _hover={{bgColor:"orange.700"}}>
             Register
         </Button>

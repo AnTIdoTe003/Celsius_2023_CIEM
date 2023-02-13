@@ -9,7 +9,7 @@
     padding-bottom: 50px;
     height: 80vh;
     margin-top: -10%;
-    background:url(../assets/eventdetails_bg.jpg);
+    background:url();
 }
 
 .mySwiper1_1 .swiper-slide {
@@ -50,7 +50,9 @@
     font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
 }
-
+.performers_wrapper{
+    background: url(https://i.ibb.co/x6xNcfw/eventdetails-bg.jpg);
+}
 @media only screen and (max-width: 600px) {
     .mySwiper1_1 .swiper-button-next, .mySwiper1_1 .swiper-button-prev {
         width: 60px;

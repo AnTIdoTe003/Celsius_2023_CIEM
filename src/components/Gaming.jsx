@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import {Container, Heading,  Stack } from '@chakra-ui/react'
 import EventCard from './EventCard'
-import mobilegaming from '../assets/mobilegaming.png'
-import pcgaming from '../assets/pcgaming.png'
+// import mobilegaming from '../assets/mobilegaming.png'
+// import pcgaming from '../assets/pcgaming.png'
 import Header from './Header';
 import ResponsiveDrawer from './ResponsiveDrawer'
 const Gaming = () => {
@@ -13,12 +13,12 @@ const Gaming = () => {
         {
           key:1,
           title:'mobile gaming',
-          image: mobilegaming
+          image: "https://i.ibb.co/7NcvNNj/mobilegaming.png"
         },
         {
           key:2,
           title:'pc gaming',
-          image: pcgaming 
+          image: "https://i.ibb.co/ypvbrMt/pcgaming.png" 
         },]
       return (
         
