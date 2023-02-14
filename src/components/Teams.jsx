@@ -122,7 +122,8 @@ const Teams = () => {
       key:6,
       name:'Surottama Roy',
       pic : "https://i.ibb.co/r5f43Vh/surottama.jpg",
-      role:'Cultural Head'
+      role:'Cultural co Head'
+      
 },
   ]
   const foundation=[

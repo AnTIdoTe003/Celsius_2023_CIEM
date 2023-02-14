@@ -9,18 +9,15 @@ const FAQs = () => {
     <Accordion defaultIndex={[0]} allowMultiple>
   <AccordionItem>
     <h2>
-      <AccordionButton bgColor={'gray'}>
+      <AccordionButton>
         <Box as="span" flex='1' textAlign='left' fontFamily={'poppins'}>
-          Hey what is your name
+         1. What is Celsius?
         </Box>
         <AccordionIcon />
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4} fontFamily={'poppins'}>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+    Celsius, the annual festivity of CIEM and CISM is one of the biggest events that you would not want to miss. Various competitions are held ranging from tech to sports, dance to fashion shows, to instill new skills in the competitors. Buckle up your seatbelts as we head towards another year of Celsius.
     </AccordionPanel>
   </AccordionItem>
 
@@ -28,32 +25,27 @@ const FAQs = () => {
     <h2>
       <AccordionButton>
         <Box as="span" flex='1' textAlign='left' fontFamily={'poppins'}>
-          Do you want to participate in Celsius?
+        2. What is the dates of tech fest, sports fest and cultural fest of celsius
         </Box>
         <AccordionIcon />
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4} fontFamily={'poppins'}>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+    The date is Tech Fest is 27th and 28 th March 
+    Sports fest - 23rd - 31st March and Cultural fest on 7th and 8th April 2023.
     </AccordionPanel>
   </AccordionItem>
   <AccordionItem>
     <h2>
       <AccordionButton>
         <Box as="span" flex='1' textAlign='left' fontFamily={'poppins'}>
-          Do you want to participate in Celsius?
+        3. Will everyone get certificate of participation.
         </Box>
         <AccordionIcon />
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4} fontFamily={'poppins'}>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+    Yes everyone will get a participation certificate.
     </AccordionPanel>
   </AccordionItem>
 </Accordion>
