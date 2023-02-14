@@ -1,5 +1,6 @@
 import {Box, Image, Text, VStack } from '@chakra-ui/react'
 import React from 'react'
+import "@fontsource/acme"
 // import Fade from 'react-reveal/Fade';
 const TeamsDesign = (props3) => {
   return (
@@ -10,7 +11,7 @@ const TeamsDesign = (props3) => {
       </Box>
       <Text fontFamily={'poppins'} textAlign={'center'} color={"white"} fontSize={['0.8rem','1rem']}>{props3.name}</Text>
       <Text fontFamily={'poppins'} textAlign={'center'} color={"white"} fontSize={['0.8rem','1rem']}>{props3.role}</Text>
-      <Text fontFamily={'cursive'} textAlign={'center'} color={"white"} fontSize={['0.8rem','1rem']}>{props3.quote}</Text>
+      <Text fontFamily={'Acme'} textAlign={'center'} color={"white"} fontSize={['0.8rem','1rem']}>{props3.quote}</Text>
     </VStack>
     // </Fade>
   )

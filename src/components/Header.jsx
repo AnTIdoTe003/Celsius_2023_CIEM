@@ -50,12 +50,14 @@ const Header = () => {
             </Button>
 
             </NavLink>
+            
 
             <NavLink to='/faqs'>
             <Button id='buttons' fontSize={'20px'} variant={'unstyled'} textTransform={'uppercase'} color={'whiteAlpha.800'}>
                Faqs
             </Button>
             </NavLink>
+            
             <HashLink smooth to={'#footer'}>
             <Button id='buttons'fontSize={'20px'} variant={'unstyled'} textTransform={'uppercase'} color={'whiteAlpha.800'}>
                 Contact us

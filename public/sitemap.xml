@@ -8,9 +8,37 @@
 
 
 <url>
-  <loc>https://ciemcelsius.com/</loc>
+  <loc>https://www.ciemcelsius.com/</loc>
+  <lastmod>2023-02-14T17:36:04+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.ciemcelsius.com/technical</loc>
   <lastmod>2023-02-14T17:36:04+00:00</lastmod>
 </url>
 
+<url>
+  <loc>https://www.ciemcelsius.com/sports</loc>
+  <lastmod>2023-02-14T17:36:04+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.ciemcelsius.com/cultural</loc>
+  <lastmod>2023-02-14T17:36:04+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.ciemcelsius.com/gaming</loc>
+  <lastmod>2023-02-14T17:36:04+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.ciemcelsius.com/business</loc>
+  <lastmod>2023-02-14T17:36:04+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.ciemcelsius.com/teams</loc>
+  <lastmod>2023-02-14T17:36:04+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.ciemcelsius.com/faqs</loc>
+  <lastmod>2023-02-14T17:36:04+00:00</lastmod>
+</url>
 
 </urlset>
