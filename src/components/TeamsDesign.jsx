@@ -4,7 +4,7 @@ import React from 'react'
 const TeamsDesign = (props3) => {
   return (
     //  <Fade left>
-    <VStack w={['8rem','14rem']} h={['13rem','18rem']}  objectFit={'cover'}>
+    <VStack w={['8rem','14rem']} h={['16rem','18rem']}  objectFit={'cover'}>
       <Box w={['8rem','10rem']} h={['8rem','10rem']} overflow={'hidden'}>
       <Image w={'100%'} h={'100%'} borderRadius={'50%'} objectFit={'cover'} src={props3.pic}></Image>
       </Box>

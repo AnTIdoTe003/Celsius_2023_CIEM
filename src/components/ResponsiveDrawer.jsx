@@ -23,9 +23,12 @@ import {Menu,
 import {ChevronDownIcon}  from '@chakra-ui/icons'
 import logo from '../assets/logo1.png'
 import '../styles/drawer.scss'
+import linkedin from '../assets/linkedin.png'
+import facebook from '../assets/facebook.png'
+import instagram from '../assets/instagram.png'
 // import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
+import { NavLink } from 'react-router-dom';
 const ResponsiveDrawer = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
@@ -74,7 +77,7 @@ const ResponsiveDrawer = () => {
             <Link to={'/business'}><MenuItem>Business</MenuItem></Link>
             </MenuList>
             </Menu>
-            <HashLink to={'#faqs'}>
+            <NavLink smooth to={'/faqs'}>
               <Button
                 fontSize={'20px'}
                 variant={'unstyled'}
@@ -84,7 +87,7 @@ const ResponsiveDrawer = () => {
               >
                 FAQS
               </Button>
-              </HashLink>
+              </NavLink>
               <Link to={'/teams'}>
               <Button
                 fontSize={'20px'}
@@ -96,7 +99,7 @@ const ResponsiveDrawer = () => {
                 Teams
               </Button>
               </Link>
-              <HashLink smooth to={'#footer'}>
+              <NavLink to={'/contactus'}>
               <Button
                 fontSize={'20px'}
                 variant={'unstyled'}
@@ -106,8 +109,13 @@ const ResponsiveDrawer = () => {
               >
                 Contact us
               </Button>
-              </HashLink>
+              </NavLink>
             </VStack>
+            <HStack spacing={'8'} alignItems={'flex-end'} height={'50vh'} className={'social_icons'}>
+                    <a href="https://www.linkedin.com/company/celsiusciem/" target="_blank" rel="noreferrer" onClick={onClose}><img src={linkedin} alt="" /></a> 
+                    <a href="https://www.facebook.com/ciem.CelsiuS?mibextid=ZbWKwL" target="_blank" rel="noreferrer" onClick={onClose}><img src={facebook} alt="" /></a>
+                    <a href="https://www.instagram.com/ciem_celsius/?igshid=YmMyMTA2M2Y%3D" target="_blank" rel="noreferrer" onClick={onClose}><img src={instagram} alt=""/></a>
+            </HStack>
           </DrawerBody>
         </DrawerContent>
       </Drawer>

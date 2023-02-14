@@ -22,6 +22,8 @@ import Footer from './components/Footer';
 import LandingPage from './components/LandingPage';
 import Business from './components/Business';
 import Teams from './components/Teams';
+import FAQs from './components/FAQs';
+
 function App() {
   return (
     <Router>
@@ -34,6 +36,7 @@ function App() {
         <Route path = "/business" element ={<Business></Business>}/>
         <Route path ="/eventdetails/:id" element ={<EventDetails></EventDetails>}/>
         <Route path ="/teams" element ={<Teams></Teams>}/>
+        <Route path ="/faqs" element ={<FAQs></FAQs>}/>
       </Routes>
       <Footer></Footer>
     </Router>

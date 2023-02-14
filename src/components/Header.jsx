@@ -51,7 +51,7 @@ const Header = () => {
 
             </NavLink>
 
-            <HashLink to={'#faqs'}>
+            <HashLink smooth to={'#faqs'}>
             <Button id='buttons' fontSize={'20px'} variant={'unstyled'} textTransform={'uppercase'} color={'whiteAlpha.800'}>
                Faqs
             </Button>

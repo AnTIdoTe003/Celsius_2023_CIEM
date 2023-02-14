@@ -249,7 +249,7 @@ const prHead=[
 const prMembers=[{
             key:1,
             name:'Sukanya Mondal',
-            pic : "https://i.ibb.co/Bs7mJwv/sukanya.jpg"
+            pic : "https://i.ibb.co/bzzqgCw/sukanya.jpg"
 },
 {
             key:2,
@@ -259,7 +259,7 @@ const prMembers=[{
 {
             key:3,
             name:'Subhradeep Samanta',
-            pic : "https://i.ibb.co/hWrK68r/subhradeep.jpg"
+            pic : "https://i.ibb.co/0ZwtCcQ/subhradeep.jpg"
 },
 {
             key:4,
