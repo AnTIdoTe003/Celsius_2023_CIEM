@@ -52,6 +52,8 @@
 .performers_wrapper{
     background: url(https://i.ibb.co/x6xNcfw/eventdetails-bg.jpg);
     width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 @media only screen and (max-width: 600px) {
     .mySwiper1_1 .swiper-button-next, .mySwiper1_1 .swiper-button-prev {
