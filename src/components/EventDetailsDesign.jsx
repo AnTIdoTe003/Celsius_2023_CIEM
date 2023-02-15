@@ -61,8 +61,8 @@ const EventDetailsDesign = (props2) => {
             <Text color={'white'} display={`${props2.category==='sports'||props2.category==='cultural'?'none':'yes'}`}fontFamily={'poppins'} fontSize={'2xl'}>Prize Money :- {props2.prize}</Text>
           </VStack>
           <HStack justifyContent={'flex-start'} my={'4'} paddingBottom={2} display={`${props2.category==='sports'?'none':'yes'}`}>
-           <a href={props2.rule} target="_blank" rel='noreferrer'><Button>Rule</Button></a>
-           <a href={props2.register} target="_blank" rel='noreferrer'><Button visibility={`${props2.category==='cultural'?'hidden':'visible'}`}>Register</Button></a>
+           <a href={props2.rule} target="_blank" rel='noreferrer'><Button color={'black'}>Rule</Button></a>
+           <a href={props2.register} target="_blank" rel='noreferrer'><Button visibility={`${props2.category==='cultural'?'hidden':'visible'}`} color={'black'}>Register</Button></a>
           </HStack>
           <Box objectFit={'contain'} my={['0%','1%']}>
       <Heading color={'white'} textTransform={'uppercase'} size={'2xl'} textAlign={'left'} paddingBottom={2} >Moments from {props2.title}</Heading>

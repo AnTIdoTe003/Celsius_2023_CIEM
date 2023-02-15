@@ -7,6 +7,12 @@ import Timeline from './Timeline'
 import Loader from './Loader'
 import FAQs from './FAQs'
 const LandingPage = () => {
+  useEffect(() => {
+		window.history.scrollRestoration = "manual";
+	}, []);
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const [loading, setLoading] = useState(false)
   useEffect(()=>{
     setLoading(true)

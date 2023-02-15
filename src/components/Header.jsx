@@ -1,9 +1,6 @@
-import { Box, Button, HStack, Image,Menu,
-    MenuButton,
-    MenuList,
-    MenuItem,
+import { Box, Button, HStack, Image
    } from '@chakra-ui/react'
-import {ChevronDownIcon}  from '@chakra-ui/icons'
+// import {ChevronDownIcon}  from '@chakra-ui/icons'
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
@@ -32,24 +29,18 @@ const Header = () => {
             {/* <Button  id='buttons' fontSize={'20px'} variant={'unstyled'} textTransform={'uppercase'} color={'whiteAlpha.800'}>
                 Events
             </Button> */}
-            <Menu>
-            <MenuButton id='buttons' fontSize={'20px'} variant={'unstyled'} textTransform={'uppercase'} color={'whiteAlpha.800'}  as={Button} rightIcon={<ChevronDownIcon/>}>
-            Events
-            </MenuButton>
-            <MenuList>
-            <Link to={'/sports'}><MenuItem>Sports</MenuItem></Link>
-            <Link to={'/technical'}><MenuItem>Technical</MenuItem></Link>
-            <Link to={'/cultural'}><MenuItem>Cultural</MenuItem></Link>
-            <Link to={'/gaming'}><MenuItem>Gaming</MenuItem></Link>
-            <Link to={'/business'}><MenuItem>Business</MenuItem></Link>
-            </MenuList>
-            </Menu>
+            <HashLink smooth to={'#register'}>
+            <Button id='buttons'fontSize={'20px'} variant={'unstyled'} textTransform={'uppercase'} color={'whiteAlpha.800'}>
+                Events
+            </Button>
+            </HashLink>
+
             <NavLink to={'/teams'}>
                 <Button id='buttons' fontSize={'20px'} variant={'unstyled'} textTransform={'uppercase'} color={'whiteAlpha.800'}>
                 Teams
             </Button>
-
             </NavLink>
+            
             
 
             <NavLink to='/faqs'>
