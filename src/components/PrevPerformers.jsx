@@ -110,8 +110,8 @@ const arr1 =[
     // flexWrap={'wrap'}
     // >
     <div className='performers_wrapper'>
-      <Heading className='partner_heading' fontSize={['2rem', '5rem']} textAlign={'center'} color={'white'} paddingTop={'10'} letterSpacing={'10px'} paddingBottom={'2rem'}>
-      Our Previous Performers
+      <Heading className='partner_heading' fontSize={['1.2rem', '5rem']} textAlign={'center'} color={'white'} paddingTop={'10'} letterSpacing={'3px'} paddingBottom={'2rem'}>
+      Previous Performers
        </Heading>
        <Slider {...settings}>
         {
