@@ -54,12 +54,14 @@ import Header from './Header';
 import ResponsiveDrawer from './ResponsiveDrawer';
 const Teams = () => {
   const settings = {
-      dots: true,
+      dots: false,
       infinite: true,
       speed: 500,
       slidesToShow: 5,
       slidesToScroll: 4,
       initialSlide: 0,
+      autoplay:true,
+     autoplaySpeed:2000,
       responsive: [
         {
           breakpoint: 1024,
@@ -299,7 +301,7 @@ const sportsMembers=[
   return (
     <Box className={'teams_wrapper'}>
       
-    <Container maxW={'100vw'} paddingBottom={'2rem'} backgroundImage="url('https://i.ibb.co/qmNtdLK/11.jpg')" backgroundSize={'cover'} backgroundPosition={'center'} backgroundRepeat={'no-repeat'}>
+    <Container maxW={'100vw'} paddingBottom={'4rem'} backgroundImage="url('https://i.ibb.co/qmNtdLK/11.jpg')" backgroundSize={'cover'} backgroundPosition={'center'} backgroundRepeat={'no-repeat'}>
       <Header></Header>
       <ResponsiveDrawer></ResponsiveDrawer>
       {/* <Fade left> */}
@@ -358,7 +360,7 @@ const sportsMembers=[
     {/* </Stack> */}
     </Container>
 
-    <Container maxW={'100vw'} py={'5rem'} backgroundImage="url('https://i.ibb.co/26KQ2vR/8.jpg')" backgroundSize={'cover'} backgroundPosition={'center'} backgroundRepeat={'no-repeat'}>
+    <Container maxW={'100vw'} py={'3rem'} backgroundImage="url('https://i.ibb.co/26KQ2vR/8.jpg')" backgroundSize={'cover'} backgroundPosition={'center'} backgroundRepeat={'no-repeat'}>
       <Heading color={'white'} paddingBottom={5} textAlign={'center'}>
         The PR Heads
       </Heading>

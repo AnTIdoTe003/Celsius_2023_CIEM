@@ -313,10 +313,11 @@ const EventDetails = () => {
       rule:'https://docs.google.com/document/d/1t_1mqfVagGZRpiUq_1YCNM9tfe-NkboIxiXH4dv85Co/edit?usp=share_link',
       register:'https://docs.google.com/forms/d/e/1FAIpQLSc61naQhNNWxFmZ5H9AVRn1dRETkxqs5sK8t0p_rmRonMJ7Ng/viewform?usp=share_link',
       image:"https://i.ibb.co/CPCdT84/techquiz-poster.jpg",
-        date :'27/28 th March',
+      date :'27/28 th March',
       fee :'Team Size (2 Max) Rs 50 per team',
       prize:'Rs 5000',
-      category:'technical'
+      category:'technical',
+      carousel1:""
     },
     {
       key:17,
@@ -347,7 +348,8 @@ const EventDetails = () => {
       date :'27 th March',
       fee :'Rs 50 per person',
       prize:'Rs 1000',
-      category:'business'
+      category:'business',
+      carousel1:""
     },
     {
       key:19,
@@ -396,7 +398,8 @@ const EventDetails = () => {
       date :'27 th March',
       fee :'Rs 50 per person',
       prize:'Rs 1000',
-      category:'business'
+      category:'business',
+      carousel1:""
     },
     {
       key:22,
@@ -411,7 +414,8 @@ const EventDetails = () => {
       date :'4th and 7th April',
       fee :'Rs 50 per person',
       prize:'Rs 1000',
-      category:'cultural'
+      category:'cultural',
+      carousel1:""
     },
     {
       key:23,
@@ -426,7 +430,8 @@ const EventDetails = () => {
       date :'3rd and 7th April',
       fee :'Rs 100 per person',
       prize:'Rs 1000',
-      category:'cultural'
+      category:'cultural',
+      carousel1:""
     },
      {
       key:24,
@@ -441,7 +446,8 @@ const EventDetails = () => {
       date :'8th April',
       fee :'Rs 800 per team',
       prize:'Rs 1000',
-      category:'cultural'
+      category:'cultural',
+      carousel1:""
     },
      {
       key:24,
@@ -456,7 +462,8 @@ const EventDetails = () => {
       date :'4th and 7th April',
       fee :'Rs 50 per person',
       prize:'Rs 1000',
-      category:'cultural'
+      category:'cultural',
+      carousel1:""
     },
      {
       key:24,
@@ -471,7 +478,8 @@ const EventDetails = () => {
       date :'4th and 7th April',
       fee :'Rs 100 per person',
       prize:'Rs 1000',
-      category:'cultural'
+      category:'cultural',
+      carousel1:""
     },
      {
       key:24,
@@ -486,7 +494,8 @@ const EventDetails = () => {
       date :'3rd and 7th April',
       fee :'Rs 100 per person',
       prize:'Rs 1000',
-      category:'cultural'
+      category:'cultural',
+      carousel1:""
     },
      {
       key:24,
@@ -501,7 +510,8 @@ const EventDetails = () => {
       date :'3rd and 7th April',
       fee :'Rs 600 per team',
       prize:'Rs 1000',
-      category:'cultural'
+      category:'cultural',
+      carousel1:""
     },
   
   ]

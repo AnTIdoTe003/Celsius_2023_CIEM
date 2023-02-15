@@ -53,7 +53,7 @@ const EventDetailsDesign = (props2) => {
           </Box> */}
           <Stack direction={['column','row']}>
           <a href={`tel:${props2.contact1}`}><Button color={'white'}backgroundColor={'#08B586'} _hover={{backgroundColor:'green'}}><FiPhoneCall></FiPhoneCall>{`\xa0  ${props2.person1}`} </Button></a>
-          <a href={`tel:${props2.contact2}`}><Button color={'white'}backgroundColor={'#08B586'}  _hover={{backgroundColor:'green'}} visibility={`${props2.contact2===123344556677?"hidden":"visible"}`}><FiPhoneCall></FiPhoneCall>{`\xa0  ${props2.person2}`} </Button></a>
+          <a href={`tel:${props2.contact2}`}><Button color={'white'}backgroundColor={'#08B586'}  _hover={{backgroundColor:'green'}} display={`${props2.contact2===123344556677?"none":"flex"}`}><FiPhoneCall></FiPhoneCall>{`\xa0  ${props2.person2}`} </Button></a>
           </Stack>
           <VStack alignItems={'flex-start'}>
             <Text paddingTop={2} fontFamily={'poppins'} fontSize={'2xl'} color={'white'}>Date :- {props2.date}</Text>
@@ -65,7 +65,7 @@ const EventDetailsDesign = (props2) => {
            <a href={props2.register} target="_blank" rel='noreferrer'><Button visibility={`${props2.category==='cultural'?'hidden':'visible'}`} color={'black'}>Register</Button></a>
           </HStack>
           <Box objectFit={'contain'} my={['0%','1%']}>
-      <Heading color={'white'} textTransform={'uppercase'} size={'2xl'} textAlign={'left'} paddingBottom={2} >Moments from {props2.title}</Heading>
+      <Heading color={'white'} textTransform={'uppercase'} size={'2xl'} textAlign={'left'} paddingBottom={2} display={`${props2.carousel1===""?'none':'flex'}`}>Moments from {props2.title}</Heading>
       <Swiper
         spaceBetween={30}
         grabCursor={true}

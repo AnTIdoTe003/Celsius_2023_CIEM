@@ -28,6 +28,8 @@ const PrevPerformers = () => {
     slidesToShow: 3,
     slidesToScroll: 4,
     initialSlide: 0,
+    autoplay:true,
+    autoplaySpeed:2000,
     responsive: [
       {
         breakpoint: 1024,
@@ -85,7 +87,7 @@ const arr1 =[
           {
               key:6,
               imgPath: "https://i.ibb.co/0rHXDcM/euphoria.jpg",
-              text:"Euphora"
+              text:"Euphoria"
           },
           {
               key:7,
