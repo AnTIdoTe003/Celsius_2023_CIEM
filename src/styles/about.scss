@@ -51,7 +51,7 @@ body{
 }
 .slick-prev:before,
 .slick-next:before {
-  color: #881798;
+  color: #aa3cb2;
 }
     
 @media only screen and (max-width: 800px) {
@@ -85,6 +85,6 @@ body{
 }
 @media screen and (max-width: 768px){
 .slick-next {
-    right: 100px;
+    right: 10px;
 }
 }

@@ -6,6 +6,7 @@ import PrevPerformers from './PrevPerformers'
 import Timeline from './Timeline'
 import Loader from './Loader'
 import FAQs from './FAQs'
+import Thistime from'./Thistime'
 const LandingPage = () => {
   useEffect(() => {
 		window.history.scrollRestoration = "manual";
@@ -33,6 +34,7 @@ const LandingPage = () => {
                   <Timeline  />
                   {/* <PrevPartners/> */}
                   <PrevPerformers/>
+                  <Thistime/>
                   <FAQs/>
             </div>
           )

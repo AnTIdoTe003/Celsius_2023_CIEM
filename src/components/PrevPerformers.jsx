@@ -25,7 +25,7 @@ const PrevPerformers = () => {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 4,
     initialSlide: 0,
     responsive: [
