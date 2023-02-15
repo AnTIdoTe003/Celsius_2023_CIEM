@@ -70,11 +70,11 @@ const ResponsiveDrawer = () => {
             Events
             </MenuButton>
             <MenuList>
-            <Link to={'/sports'}><MenuItem>Sports</MenuItem></Link>
-            <Link to={'/technical'}><MenuItem>Technical</MenuItem></Link>
-            <Link to={'/cultural'}><MenuItem>Cultural</MenuItem></Link>
-            <Link to={'/gaming'}><MenuItem>Gaming</MenuItem></Link>
-            <Link to={'/business'}><MenuItem>Business</MenuItem></Link>
+            <Link to={'/sports'}><MenuItem color={'black'}>Sports</MenuItem></Link>
+            <Link to={'/technical'}><MenuItem color={'black'} >Technical</MenuItem></Link>
+            <Link to={'/cultural'}><MenuItem color={'black'}>Cultural</MenuItem></Link>
+            <Link to={'/gaming'}><MenuItem color={'black'}>Gaming</MenuItem></Link>
+            <Link to={'/business'}><MenuItem color={'black'}>Business</MenuItem></Link>
             </MenuList>
             </Menu>
             <NavLink smooth to={'/faqs'}>

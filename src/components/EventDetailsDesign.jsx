@@ -51,10 +51,10 @@ const EventDetailsDesign = (props2) => {
           <Box color={'white'}textAlign={'left'} textTransform={'uppercase'} fontFamily={'sans-serif'}fontSize={['20px','30px']} >
                {props2.person2} 
           </Box> */}
-          <HStack>
+          <Stack direction={['column','row']}>
           <a href={`tel:${props2.contact1}`}><Button color={'white'}backgroundColor={'#08B586'} _hover={{backgroundColor:'green'}}><FiPhoneCall></FiPhoneCall>{`\xa0  ${props2.person1}`} </Button></a>
-          <a href={`tel:${props2.contact2}`}><Button color={'white'}backgroundColor={'#08B586'}  _hover={{backgroundColor:'green'}}><FiPhoneCall></FiPhoneCall>{`\xa0  ${props2.person2}`} </Button></a>
-          </HStack>
+          <a href={`tel:${props2.contact2}`}><Button color={'white'}backgroundColor={'#08B586'}  _hover={{backgroundColor:'green'}} visibility={`${props2.contact2===123344556677?"hidden":"visible"}`}><FiPhoneCall></FiPhoneCall>{`\xa0  ${props2.person2}`} </Button></a>
+          </Stack>
           <VStack alignItems={'flex-start'}>
             <Text paddingTop={2} fontFamily={'poppins'} fontSize={'2xl'} color={'white'}>Date :- {props2.date}</Text>
             <Text fontFamily={'poppins'} fontSize={'2xl'} color={'white'}>Fee :- {props2.fee}</Text>
