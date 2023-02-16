@@ -7,6 +7,9 @@ const Timer = ({days, hours, minutes,seconds}) => {
       <div className="logo_img">
         <img src={logo} alt="" />
       </div>
+      <div className='header_wrapper'>
+        <p>The heat wave will crash you in !!!</p>
+      </div>
       <div className='timer_wrapper'>
       <div className='timeline_content'>
             <h1>{days<10?"0"+days:days}</h1>

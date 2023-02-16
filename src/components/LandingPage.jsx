@@ -9,13 +9,13 @@ import FAQs from './FAQs'
 import Thistime from'./Thistime'
 import Timer from './Timer'
 const LandingPage = () => {
-  const [days, setDays] = useState(0);
-    const [hours, setHours] = useState(0);
+const [days, setDays] = useState(0);
+const [hours, setHours] = useState(0);
 const [minutes, setMinutes] = useState(0);
 const [seconds, setSeconds] = useState(0);
 
-// const deadline = "February 17, 2023 11:00:00"
-const deadline = "February 16, 2023 23:30:00"
+const deadline = "February 17, 2023 11:15:00"
+// const deadline = "February 16, 2023 23:30:00"
 
 const  getTime = () =>{
     const timeleft = Date.parse(deadline)- Date.now()
@@ -37,7 +37,7 @@ useEffect(() => {
 useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
-  const [loading, setLoading] = useState(false)
+const [loading, setLoading] = useState(false)
 useEffect(()=>{
     setLoading(true)
     setTimeout(()=>{
