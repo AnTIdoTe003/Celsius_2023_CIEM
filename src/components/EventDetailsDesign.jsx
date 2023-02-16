@@ -64,8 +64,9 @@ const EventDetailsDesign = (props2) => {
            <a href={props2.rule} target="_blank" rel='noreferrer'><Button color={'black'}>Rule</Button></a>
            <a href={props2.register} target="_blank" rel='noreferrer'><Button visibility={`${props2.category==='cultural'?'hidden':'visible'}`} color={'black'}>Register</Button></a>
           </HStack>
-          <Box objectFit={'contain'} my={['0%','1%']}>
-      <Heading color={'white'} textTransform={'uppercase'} size={'2xl'} textAlign={'left'} paddingBottom={2} display={`${props2.carousel1===""?'none':'flex'}`}>Moments from {props2.title}</Heading>
+          <Box objectFit={'contain'} my={['0%','1%']} display={`${props2.carousel1===""?'none':''}`}>
+      <Heading color={'white'} textTransform={'uppercase'} size={'2xl'} textAlign={'left'} paddingBottom={2} >Moments from {props2.title}</Heading>
+     
       <Swiper
         spaceBetween={30}
         grabCursor={true}
@@ -91,8 +92,8 @@ const EventDetailsDesign = (props2) => {
         <Image w={'100%'} objectFit={'cover'}  src={props2.carousel4}></Image>
         </SwiperSlide>
       </Swiper>
+      </Box>
        </Box> 
-        </Box>
         {/* </Fade> */}
       </Stack>
       
