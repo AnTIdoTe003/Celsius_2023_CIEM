@@ -256,7 +256,7 @@ const prMembers=[{
 },
 {
             key:2,
-            name:'Deep',
+            name:'Deep Kr Sadhukhan',
             pic : "https://i.ibb.co/zPRKL9t/deep.jpg"
 },
 {
@@ -266,7 +266,7 @@ const prMembers=[{
 },
 {
             key:4,
-            name:'Chandrayee Ghosh',
+            name:'Chandryaee Ghosh',
             pic : "https://i.ibb.co/BtQQtVY/chandrayee.jpg"
 },
 ]

@@ -5,9 +5,7 @@
     box-sizing: border-box;
     color: white;
 }
-/* body{
-    overflow-x: hidden;
-} */
+
 
 .timeline_container{
     width: 100vw;
@@ -50,12 +48,14 @@
     justify-content: center;
     align-items: center;}
 .timeline_container h1{
-    font-size: 10rem
+    font-size: 10rem;
+    font-family: 'Permanent Marker', cursive;
 }
 .timeline_content p{
     font-weight: 400;
     font-size: 3rem;
     opacity: 0.4; 
+    font-family: 'Permanent Marker', cursive;
 }
 @media only screen and (max-width: 800px) {
     .timer_wrapper {
@@ -68,7 +68,7 @@
         transform: translateY(0rem);
     }
     .timeline_content h1{
-        font-size: 3rem
+        font-size: 12vw;
     }
     .timeline_content p{
         font-weight: 600;
@@ -76,7 +76,7 @@
     }
     .logo_img{
         width: 100vw;
-        height: 60vh;
+        height: 50vh;
         margin-bottom: 3rem;
         transform: translateY(0rem);
     }
