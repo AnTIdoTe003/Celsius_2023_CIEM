@@ -269,7 +269,8 @@ const EventDetails = () => {
       date :'27/28 th March',
       fee :'Team Size (4 Max) Rs 200 per team',
       prize:'Rs 10000',
-      category:'technical'
+      category:'technical',
+      carousel1:""
     },
     {
       key:14,
