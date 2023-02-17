@@ -96,10 +96,7 @@ const EventDetails = () => {
       contact1 :7872548746,
       contact2 : 9667022458,
       image:"https://i.ibb.co/JdR2jv7/smash-poster.jpg",
-      carousel1: torneo1,
-      carousel2 : torneo2,
-      carousel3 : torneo3,
-      carousel4 : torneo4,
+      carousel1: "",
       category:'sports',
       date :'27/28 th March',
       fee :'Rs 800'
@@ -302,7 +299,7 @@ const EventDetails = () => {
       image:"https://i.ibb.co/McPLPZP/modeldisplay-poster.jpg",
       carousel1:"https://i.ibb.co/FYrwMLq/modeldisplay-moment1.jpg",
       carousel2:"https://i.ibb.co/w08y6Jk/modeldisplay-moment2.jpg",
-        date :'27/28 th March',
+        date :'27th March',
       fee :' Rs 20 per person',
       prize:'Rs 6000',
       category:'technical'
@@ -321,7 +318,7 @@ const EventDetails = () => {
       fee :'Team Size (2 Max) Rs 50 per team',
       prize:'Rs 5000',
       category:'technical',
-      carousel1:""
+      carousel1:"https://i.ibb.co/7zWkLj7/ideathon-moment1.jpg",
     },
     {
       key:17,
@@ -333,7 +330,7 @@ const EventDetails = () => {
       rule:'https://docs.google.com/document/d/18Sl8evlU8IMU0p3h66Zp-t1NVSmeBWgo7katDNXkH0M/edit?usp=share_link',
       register:'https://docs.google.com/forms/d/e/1FAIpQLScNSYu3gtgECuHIGkLlm0KEDuqkHxRzgyb4mR9qhBCYIbsmEg/viewform?usp=share_link',
       image:"https://i.ibb.co/zGvgndx/ideathon-poster.jpg",
-      carousel1:"https://i.ibb.co/7zWkLj7/ideathon-moment1.jpg",
+      carousel1:"",
       date :'27 th March',
       fee :'Team Size (5 Max) Rs 200 per team',
       prize:'Rs 3000',
@@ -366,7 +363,7 @@ const EventDetails = () => {
       register:'https://docs.google.com/forms/d/e/1FAIpQLSdefpPeJBBVav5GxcpEUQ8DTyzLcRhIVN4bRZ_gySVIO7Yq8Q/viewform?usp=share_link',
       image:"https://i.ibb.co/8dbg2PZ/hackathon-poster.png",
       carousel1:"https://i.ibb.co/TwxmzCR/hackathon-moment1.jpg",
-        date :'27/28 th March',
+        date :'28th March',
       fee :'Team Size (6 Max) Rs 200 per team',
       prize:'Rs 15000',
       category:'technical'

@@ -15,7 +15,7 @@ const [minutes, setMinutes] = useState(0);
 const [seconds, setSeconds] = useState(0);
 
 const deadline = "February 17, 2023 11:15:00"
-// const deadline = "February 16, 2023 23:30:00"
+// const deadline = "February 17, 2023 08:39:00"
 
 const  getTime = () =>{
     const timeleft = Date.parse(deadline)- Date.now()
@@ -48,6 +48,7 @@ useEffect(()=>{
     <div>
         {
           (days+hours+minutes+seconds<=0)?
+          (
           loading?(
             <Loader></Loader>
           ):
@@ -61,6 +62,7 @@ useEffect(()=>{
                   <Thistime/>
                   <FAQs/>
             </div>
+          )
           )
           :
           <Timer
