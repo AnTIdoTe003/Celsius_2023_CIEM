@@ -168,7 +168,8 @@ const EventDetails = () => {
       image:"https://i.ibb.co/N3T3Nkz/pingpong-poster.jpg",
       category:'sports',
       date :'23/24/25 th March',
-      fee :'Single: Rs 100, Double : Rs 200'
+      fee :'Single: Rs 100, Double : Rs 200',
+      carousel1:""
     },
     {
       key:8,
