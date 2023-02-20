@@ -61,7 +61,7 @@ const Login = () => {
         />
         </div>
         <br></br>
-        <div style={{display:"flex",justifyContent:'center'}}>
+        <div className={!download?'submit_btn':'hide'}>
         <button type='submit' className='btn' >Submit</button>
         </div> 
         </form>

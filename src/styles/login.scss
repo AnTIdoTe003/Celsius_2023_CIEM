@@ -31,6 +31,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-direction: row;
 }
 
 .hide{
@@ -57,6 +58,12 @@ body{
     // ::placeholder{
     //     padding-left: 1rem;
     // }
+}
+
+.submit_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .btn{
     background-color: rgba(0, 0, 0, 0.72);
