@@ -7,6 +7,7 @@ import home_vid1080 from '../assets/home_vid1080.mp4'
 import React from 'react'
 import Header from './Header'
 import ResponsiveDrawer from './ResponsiveDrawer'
+import { NavLink } from 'react-router-dom'
 const Home = () => {
   return (
     <div className='home1'>
@@ -34,11 +35,11 @@ const Home = () => {
             Register
         </Button>
         </HashLink>
-        <a href="https://drive.google.com/file/d/16v728Pii4x29aQjdm9-ggw6aycXuBMwB/view?usp=drivesdk" target={'_blank'} rel="noreferrer">
+        <NavLink to={'/login'}>
            <Button  variant={'outline'} color={'white'} w={['7.5rem','10.5rem']} height={['4rem','5rem']} fontSize={['1.3rem','1.7rem']} transform={['translateY(-100px)','translateY(-100px)']} _hover={{bgColor:"orange.700"}}>
             Know More
         </Button>
-        </a>       
+        </NavLink>      
         </HStack>       
     </VStack>
     </div> 
