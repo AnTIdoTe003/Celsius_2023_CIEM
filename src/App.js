@@ -23,6 +23,7 @@ import LandingPage from './components/LandingPage';
 import Business from './components/Business';
 import Teams from './components/Teams';
 import FAQs from './components/FAQs';
+import Login from './components/Login';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path ="/eventdetails/:id" element ={<EventDetails></EventDetails>}/>
         <Route path ="/teams" element ={<Teams></Teams>}/>
         <Route path ="/faqs" element ={<FAQs></FAQs>}/>
+        <Route path ="/login" element ={<Login></Login>}/>
       </Routes>
       <Footer></Footer>
     </Router>

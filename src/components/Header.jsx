@@ -55,6 +55,11 @@ const Header = () => {
                Faqs
             </Button>
             </NavLink>
+            <NavLink to='/login'>
+            <Button id='buttons' fontSize={'20px'} variant={'unstyled'} textTransform={'uppercase'} color={'whiteAlpha.800'}>
+               Brochure
+            </Button>
+            </NavLink>
             
             <HashLink smooth to={'#footer'}>
             <Button id='buttons'fontSize={'20px'} variant={'unstyled'} textTransform={'uppercase'} color={'whiteAlpha.800'}>

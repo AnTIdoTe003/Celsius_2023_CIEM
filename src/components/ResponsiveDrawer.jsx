@@ -88,6 +88,11 @@ const ResponsiveDrawer = () => {
                 FAQS
               </Button>
               </NavLink>
+              <NavLink to='/login'>
+            <Button id='buttons' fontSize={'20px'} variant={'unstyled'} textTransform={'uppercase'} color={'whiteAlpha.800'}>
+               Brochure
+            </Button>
+            </NavLink>
               <Link to={'/teams'}>
               <Button
                 fontSize={'20px'}
