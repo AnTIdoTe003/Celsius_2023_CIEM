@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
 .login_header{
     background: url(../assets/11.jpg);
 }
-
-
 .login_wrapper{
     
     height: 100vh;
@@ -20,6 +24,7 @@
     align-items: center;
     margin:0 auto;
     border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
 }
 .show{
     display: flex;
@@ -38,7 +43,9 @@
     display: flex;
     flex-direction: column;
     label{
-        width: 10rem;
+        width: 15rem;
+        font-size:1.3rem;
+        font-family: 'Poppins', sans-serif;
     }
     input{
         width: 25rem;

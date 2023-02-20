@@ -116,7 +116,7 @@ const ResponsiveDrawer = () => {
               </Button>
               </NavLink>
             </VStack>
-            <HStack spacing={'8'} alignItems={'flex-end'} height={'50vh'} className={'social_icons'}>
+            <HStack spacing={'8'} alignItems={'flex-end'} height={'45vh'} className={'social_icons'}>
                     <a href="https://www.linkedin.com/company/celsiusciem/" target="_blank" rel="noreferrer" onClick={onClose}><img src={linkedin} alt="" /></a> 
                     <a href="https://www.facebook.com/ciem.CelsiuS?mibextid=ZbWKwL" target="_blank" rel="noreferrer" onClick={onClose}><img src={facebook} alt="" /></a>
                     <a href="https://www.instagram.com/ciem_celsius/?igshid=YmMyMTA2M2Y%3D" target="_blank" rel="noreferrer" onClick={onClose}><img src={instagram} alt=""/></a>
