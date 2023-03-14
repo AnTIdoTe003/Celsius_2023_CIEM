@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import { Box, Button, HStack, Image, Text, VStack } from '@chakra-ui/react'
 // import img1 from '../assets/logo1.png'
 import '../styles/home.scss'
